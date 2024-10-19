@@ -8,6 +8,8 @@ services:
     container_name: api_gateway
     ports:
       - 3010:4000
+    volumes:
+      - ./site:/user/www/site
     networks:
       - gateway
 networks:
