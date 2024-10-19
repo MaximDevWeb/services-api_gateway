@@ -1,0 +1,17 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./*"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
