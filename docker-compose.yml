@@ -6,8 +6,6 @@ services:
       context: .
       dockerfile: ./docker/Dockerfile
     container_name: api_gateway
-    volumes:
-      - ./site:/user/www/site
     ports:
       - 3010:4000
     networks:
