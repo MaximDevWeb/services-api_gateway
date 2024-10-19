@@ -15,4 +15,3 @@ services:
 networks:
   gateway:
     name: microservices
-    external: true
